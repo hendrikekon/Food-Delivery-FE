@@ -1,0 +1,27 @@
+.banner-menu-container{
+    padding: 40px 0 40px 0;
+}
+.banner-menu-link{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    background-color: #eaeaea;
+    color: rgb(200, 199, 199);
+    font-size: 6rem;
+    border-radius: 20px;
+    height: 10rem;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.banner-menu-link:hover{
+    cursor: pointer;
+    background-color: #929292;
+}
+.banner-menu-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+
+}

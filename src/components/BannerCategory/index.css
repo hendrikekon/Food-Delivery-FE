@@ -1,0 +1,21 @@
+.banner-category-container{
+    padding: 40px 0 40px 0;
+}
+.banner-category-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.banner-category-grid-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.banner-category-grid-image:hover{
+    cursor: pointer;
+}
+.banner-category-image{
+    width: 50%;
+}

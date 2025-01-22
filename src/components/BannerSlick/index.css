@@ -1,0 +1,110 @@
+.banner-slick-container{
+    margin: 3rem 0 1rem 0;
+    flex: 1;
+    position: relative;
+}
+.banner-slick-slide {
+    flex: 0 0 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 1; /* Make visible */
+    position: relative; /* Prevent overlap */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.banner-slick-slide-image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.banner-slick-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+/* ----------- */
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    font-size: 24px;
+    color: white; /* Add a visible color */
+    background: rgba(0, 0, 0, 0.5); /* Optional for contrast */
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    visibility: visible;
+    transition: 0.5s ease;
+}
+
+.slick-prev, .slick-next{
+    transform: translate(0, -50%);
+}
+
+.slick-dots {
+    display: flex !important; /* Override any library defaults */
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Ensure it's centered in the parent */
+    padding: 0;
+}
+
+.slick-dots li {
+    /* display: inline-block; */
+    margin: 0 5px; /* Space between dots */
+    padding: 0;
+    list-style: none;
+    display: flex; /* Align items in the center */
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 100%;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: #c00;
+}
+
+.slick-dots li,
+.slick-dots li button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-prev {
+    left: 10px;
+}
+  
+.custom-next {
+    right: 10px;
+}

@@ -1,0 +1,13 @@
+.banner-country-container{
+    padding: 40px 0 40px 0;
+}
+.banner-country-image{
+    width: 100%;
+}
+.banner-country-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
