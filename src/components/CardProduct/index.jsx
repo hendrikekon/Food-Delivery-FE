@@ -8,7 +8,7 @@ import imgCart from '../../assets/img/buy.png';
 
 const CardProduct = ({ product, isLoggedIn }) => {
     const navigate = useNavigate()
-    const imageUrl = `${config.apiBaseUrl}/images/products/${product.image_url}`;
+    const imageUrl = `${config.apiBaseUrl}/api/images/${product.image}`;
     // const noimage = `https://th.bing.com/th/id/OIP.H1gHhKVbteqm1U5SrwpPgwAAAA?w=224&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7`;
     // console.log('Image URL:', imageUrl);
     const dispatch = useDispatch();
